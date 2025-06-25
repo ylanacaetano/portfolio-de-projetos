@@ -5,42 +5,241 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Meu portfólio</title>
 </head>
 
 <body>
     <header class="container text-center">
-        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150" srcset="">
-        <p class="lead">Eu sou Fernanda_</p>
-        <h1>Eu ensino Programação</h1>
-        <p>Sou Engenheira de Computação e Pedagoga. Ensino pensamento computacional para estudantes do Ensino
-            Fundamental e Médio. Ensino sobre pensamento computacional usando HTML, CSS e JavaScript. Veja os projetos
-            que já desenvolvi!</p>
+        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Ylana</p>
+        <h1>Eu estudo Programação</h1>
+        <p> Sou uma estudante do 3° ano do ensino médio que trabalha com programação e usa HTML, Scratch e Javascript.
+Exploro uma combinação de linguagens e plataformas que abrangem desde a criação de 
+sites até o desenvolvimento de programas mais complexos. Veja os projetos que já desenvolvi!
+
+        </p>
         <p>Minhas habilidades</p>
         <div>
             <p class="badge bg-secondary">HTML</p>
-            <p class="badge bg-secondary">CSS</p>
             <p class="badge bg-secondary">JavaScript</p>
             <p class="badge bg-secondary">Scratch</p>
         </div>
     </header>
-    <main class="container">
+    <main class="container mt-5">
         <h2>Meus projetos</h2>
         <div class="row">
+            <!-- Projeto 1 -->
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Da Vinci em Pixels: Recriando a Mona Lisa com p5.js
+
+</h5>
+                        <p class="card-text"> 
+                            O projeto "Mona Lisa" no p5.js é uma recriação simplificada da famosa pintura de Leonardo da Vinci, 
+                            utilizando a biblioteca p5.js para desenhar formas e aplicar cores. O objetivo é 
+                            representar a figura de Mona Lisa com elementos básicos como círculos e elipses, 
+                            criando uma versão digital da obra.</p>
+
+<p>Passos principais:</p>
+Formas básicas: Usar círculos, elipses e retângulos para construir a cabeça, corpo, olhos, boca, etc.</p>
+
+<p>Cores: Definir tons para pele, roupas e fundo.</p>
+
+<p>Detalhes: Incluir expressões faciais sutis, como a boca sorridente e os olhos.</p>
+
+<p>Interatividade (opcional): Adicionar funcionalidades como zoom ou animações.</p>
+
+Esse projeto combina arte clássica com programação, permitindo recriar a Mona Lisa
+ de maneira criativa e interativa.
+
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
                     </div>
-                  </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Quente ou Frio: A Busca Interativa
+
+</h5>
+                        <p class="card-text">O projeto "Quente e Frio" no p5.js é um jogo simples e interativo, onde 
+                      o objetivo é encontrar um ponto específico na tela, com base em dicas de temperatura
+                     geradas pela proximidade do cursor do mouse. À medida que o usuário move o mouse,
+                    o sistema informa se o ponto está "quente" (próximo) ou "frio" (distante) em relação ao alvo.
+
+<p>Funcionalidade e Interatividade:</p>
+<p>Alvo aleatório: Um ponto ou área é escolhido aleatoriamente na tela como o "alvo".</p>
+
+<p>Feedback de temperatura: O jogo usa a distância entre o mouse e o alvo para dar feedback ao jogador. Quando o mouse
+ se aproxima, a temperatura fica "quente"; se afasta, fica "fria".</p>
+
+<p>Interatividade: O jogador usa o movimento do mouse para se aproximar do alvo e receber 
+indicações visuais ou de texto sobre a temperatura.</p>
+
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Race On: Acelerando Sem Barreiras
+                        </h5>
+                        <p class="card-text"> O jogo de corrida sem obstáculos no p5.js é um projeto simples e interativo,
+                 onde o objetivo é controlar um "veículo" ou objeto que corre em uma linha reta, geralmente 
+                 com a única mecânica sendo o controle de velocidade ou direção.
+
+<p>Funcionalidade:</p>
+Veículo em movimento: O jogador controla um veículo (por exemplo, um carro, avião ou personagem) que se move para frente, seguindo uma trajetória reta.</p>
+
+<p>Controle do jogador: A interação do jogador pode ser feita com teclas de seta ou o mouse, e o objetivo principal é manter o
+ controle da velocidade ou da direção, dependendo da dinâmica do jogo.</p>
+
+<p>Sem obstáculos: Diferente de jogos tradicionais de corrida, não há obstáculos
+ ou inimigos. O foco é mais na manutenção do controle do que na superação de desafios.</p>
+
+<p>Objetivo: O jogador pode tentar percorrer a maior distância possível, competir por 
+tempo ou simplesmente manter a velocidade constante sem perder o controle. </p>                     
+  </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
             </div>
         </div>
-
     </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Da Vinci em Pixels: Recriando a MonaLisa no p5.js</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto "Mona Lisa" no p5.js é uma recriação simplificada da famosa pintura de Leonardo da Vinci, 
+                            utilizando a biblioteca p5.js para desenhar formas e aplicar cores. O objetivo é 
+                            representar a figura de Mona Lisa com elementos básicos como círculos e elipses, 
+                            criando uma versão digital da obra.</p>
+
+<p>Passos principais:</p>
+Formas básicas: Usar círculos, elipses e retângulos para construir a cabeça, corpo, olhos, boca, etc.</p>
+
+<p>Cores: Definir tons para pele, roupas e fundo.</p>
+
+<p>Detalhes: Incluir expressões faciais sutis, como a boca sorridente e os olhos.</p>
+
+<p>Interatividade (opcional): Adicionar funcionalidades como zoom ou animações.</p>
+
+Esse projeto combina arte clássica  com programação, permitindo recriar a Mona Lisa
+ de maneira criativa e interativa.
+ </p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/minhas-leituras/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Quente ou Frio: A Busca Interativa
+                    </h5>
+                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto "Quente e Frio" no p5.js é um jogo simples e interativo, onde 
+                      o objetivo é encontrar um ponto específico na tela, com base em dicas de temperatura
+                     geradas pela proximidade do cursor do mouse. À medida que o usuário move o mouse,
+                    o sistema informa se o ponto está "quente" (próximo) ou "frio" (distante) em relação ao alvo.
+
+<p>Funcionalidade e Interatividade:</p>
+<p>Alvo aleatório: Um ponto ou área é escolhido aleatoriamente na tela como o "alvo".</p>
+
+<p>Feedback de temperatura: O jogo usa a distância entre o mouse e o alvo para dar feedback ao jogador. Quando o mouse
+ se aproxima, a temperatura fica "quente"; se afasta, fica "fria".</p>
+
+<p>Interatividade: O jogador usa o movimento do mouse para se aproximar do alvo e receber 
+indicações visuais ou de texto sobre a temperatura.
+</p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/tecnicas-computacionais-refletindo-sobre-ia/">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/femascheti/tecnicas-computacionais-refletindo-sobre-ia">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Race On: Acelerando Sem Barreiras
+</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O jogo de corrida sem obstáculos no p5.js é um projeto simples e interativo,
+                 onde o objetivo é controlar um "veículo" ou objeto que corre em uma linha reta, geralmente 
+                 com a única mecânica sendo o controle de velocidade ou direção.
+
+<p>Funcionalidade:</p>
+Veículo em movimento: O jogador controla um veículo (por exemplo, um carro, avião ou personagem) que se move para frente, seguindo uma trajetória reta.</p>
+
+<p>Controle do jogador: A interação do jogador pode ser feita com teclas de seta ou o mouse, e o objetivo principal é manter o
+ controle da velocidade ou da direção, dependendo da dinâmica do jogo.</p>
+
+<p>Sem obstáculos: Diferente de jogos tradicionais de corrida, não há obstáculos
+ ou inimigos. O foco é mais na manutenção do controle do que na superação de desafios.</p>
+
+<p>Objetivo: O jogador pode tentar percorrer a maior distância possível, competir por 
+tempo ou simplesmente manter a velocidade constante sem perder o controle.
+
+                    </p>
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/951732825/">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/femascheti">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Ylana Caetano.</p>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
